@@ -1,0 +1,152 @@
+.book-online{
+    background-color: #F6F6F6;
+}
+
+.book-online center > div{
+    width: 55%;
+    padding:50px 0;
+}
+
+
+.book-online center > div > div{
+    border-radius: 13px;
+    background: #eee;
+}
+
+.book-online .book-online-heading{
+    color: #fff;
+    background-color: #009FE3;
+    border-color: #ddd;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.book-online .book-online-heading h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7em;
+}
+
+.book-online .book-online-body{
+    padding: 20px 0; 
+}
+
+.book-online .book-online-body form{
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.book-online .book-online-body form > input{
+    background-color: #5CB85C;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.book-online .book-online-body form > input:hover{
+    background-color: #4cae4c;
+}
+
+.book-online .book-online-body input:not([type="checkbox"]){
+    padding: 13px;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.book-online .book-online-body > input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(1){
+    background-color: #3276b1;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(1):hover{
+    background-color: #2e6da4;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(2){
+    background-color: #5bc0de;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(2):hover{
+    background-color: #46b8da;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(3){
+    background-color: #e74c3c;
+}
+
+.book-online .book-online-body > input[type="submit"]:nth-of-type(3):hover{
+    background-color: #c0392b;
+}
+
+.book-online .book-online-body div.checkbox{
+    text-align: left;
+    padding: 15px 50px 20px
+}
+
+.book-online .book-online-body > h4{
+    margin-top: 10px;
+    color: #6A6A6A;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+div.select-boxes,.schedule-date{
+    text-align: left;
+    margin: 4% 8%;
+}
+
+div.select-boxes label,.schedule-date{
+    margin-bottom: 3%;
+    display: block;
+}
+
+div.select-boxes select{
+    padding: 2%;
+    width: 100%;
+}
+
+#jqxcalendar{
+    margin-bottom: 3%;
+}
+
+
+.hour-date{
+    overflow: hidden;
+    margin-left: 7%;
+}
+
+.hour-date > div{
+    float: left;
+    width: 29%;
+    text-align: center;
+    margin:1%;
+}
+
+.hour-date > div ul{
+    padding: 0;
+    list-style: none;
+}
+
+.hour-date > div:not(:last-child) ul li{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.selectLi{
+    border :2px solid #3498DB;
+    color: #3498DB;
+}

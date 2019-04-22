@@ -1,0 +1,69 @@
+.centroid{text-align: center;}
+
+/* start our-Team */
+div.teams{
+	background-color: #eee;
+	display: inline-block;
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+div.teams div.team-staff{
+	padding-top: 1%;
+	overflow: hidden;
+}
+
+div.teams div.team-staff div.team-member{
+	float: left;
+	width: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	margin: 2.5%;
+}
+
+div.j_1{background-image: url('../images/doc1.jpg');}
+div.j_2{background-image: url('../images/doc2.jpg');}
+div.j_3{background-image: url('../images/doc3.jpg');}
+div.j_4{background-image: url('../images/doc4.jpg');}
+
+div.j_5{background-image: url('../images/doc5.jpg');}
+div.j_6{background-image: url('../images/doc6.jpg');}
+div.j_7{background-image: url('../images/doc7.jpg');}
+div.j_8{background-image: url('../images/doc8.jpg');}
+
+
+div.teams div.team-staff div.team-member:hover div.team-overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	display: inline-block;
+	visibility: visible;
+}
+
+div.team-overlay{
+	visibility: hidden;
+	padding-top: 50%;
+}
+
+div.teams div.team-staff div.team-member h1{
+	color: #fff;
+    font-size: 35px;
+    padding-top: 20%;
+    letter-spacing: 7px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+div.teams div.team-staff div.team-member h5{
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 2px;
+    margin-top: -3%;
+    font-size: 0.9em;
+    color: #ffbe76;
+}
+
+/* END teams */

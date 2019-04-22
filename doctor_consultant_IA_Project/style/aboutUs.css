@@ -1,0 +1,77 @@
+/* Start Blog-Features */
+
+div.Features{
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+div.Features .left-features,.right-features{
+	float: left;
+	padding: 1%;
+	width: 48%;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.7;
+	margin: 1%;
+}
+
+div.Features  div.feature:first-child{
+	border-bottom: 1px solid #2a7696;
+	margin-bottom: 1%;
+}
+
+.left-features .icon, .right-features .icon{
+	font-size: 50px;
+	color:  #2a7696;
+}
+
+.left-features .feature-info h1, .right-features .feature-info h1{
+	color:  #2a7696;
+	font-size: 1.5em;
+}
+
+div.feature .icon{
+	float: left;
+	width: 10%;
+	padding-top: 11px;
+}
+
+div.feature .feature-info{
+	width: 90%;
+	padding: 1px 40px 40px 70px;
+    margin-left: 0.5%;
+}
+/* END Blog-Features */
+
+div.speicalHeading{
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+div.speicalHeading::after{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid #2a7696;
+    width: 20%;
+    bottom: -69%;
+    right: 40%;
+}
+
+div.speicalHeading::before{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #2a7696;
+    width: 16%;
+    bottom: -89%;
+    right: 42%;
+}
+h3.speicalTarget{
+	color: #2a7696;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #2a7696;
+	width: 30%;
+	font-size: 30px;
+	text-align: left;
+	display: inline;
+}

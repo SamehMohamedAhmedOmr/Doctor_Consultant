@@ -1,0 +1,56 @@
+.addPost .container{
+    padding: 2% 7%; 
+    text-align: center;
+}
+
+.addPost .container .login-body{
+    background-color: #efefef;
+    padding: 3%;
+}
+
+.addPost .login-body form{
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.addPost .login-body form > input{
+    background-color: #5CB85C;
+    color: #fff;
+    cursor: pointer;
+}
+
+.addPost .login-body label{
+    display: block;
+    font-size: 2em;
+    text-align: left;
+}
+
+.addPost .login-body form > input:hover{
+    background-color: #4cae4c;
+}
+
+.addPost .login-body input,.addPost .login-body textarea{
+    padding: 13px;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.addPost .login-body textarea{
+    max-width: 85%;
+    min-width: 85%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.addPost .login-body > input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hidden{
+    display: none;
+}

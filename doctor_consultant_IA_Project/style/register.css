@@ -1,0 +1,163 @@
+.register{
+    background-color: #F6F6F6;
+}
+
+.register center > div{
+    width: 55%;
+    padding:50px 0;
+}
+
+
+.register center > div > div{
+    border-radius: 13px;
+    background: #eee;
+}
+
+.register .register-heading{
+    color: #fff;
+    background-color: #009FE3;
+    border-color: #ddd;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.register .register-heading h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7em;
+}
+
+.register .register-body{
+    padding: 20px 0; 
+}
+
+.register .register-body form{
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.register .register-body form > input{
+    background-color: #5CB85C;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register .register-body form > input:hover{
+    background-color: #4cae4c;
+}
+
+.register .register-body input:not([type="checkbox"]){
+    padding: 13px;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.register .register-body > input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.register .register-body .radio{
+    text-align: left;
+    margin-left: 3.6%;
+}
+
+.register .register-body input.gender{
+    padding: 0;
+    width: 7%;
+    margin: 3% 0% 3% 2%;
+}
+
+.register .register-body div.checkbox{
+    text-align: left;
+    padding: 15px 50px 20px
+}
+
+.register .register-body div.checkbox span{
+    color: #009FE3;
+    cursor: pointer;
+}
+
+.register .register-body > h4{
+    margin-top: 10px;
+    color: #6A6A6A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+label.dob{
+    display: block;
+    text-align: left;
+    margin: 2% 8%;
+}
+
+
+
+/*  tab design */
+
+.sign-up-tabs{
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sign-up-tabs div{
+    float: left;
+    width: 50%;
+    border-bottom: 1px solid #444444;
+    padding: 20px;
+    background-color: #444444;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sign-up-tabs div.selected-sign-up-tab{
+    background-color: #7DBA2F;
+    border-bottom: 1px solid #7DBA2F;
+}
+
+
+div.select-boxes{
+    text-align: left;
+    margin: 4% 8%;
+}
+
+div.select-boxes label{
+    margin-bottom: 3%;
+    display: block;
+}
+
+div.select-boxes select{
+    padding: 2%;
+    width: 100%;
+}
+
+div.select-boxes option{
+    margin-top: 10px;
+}
+
+#doctor{
+    display: none;
+}
+
+.errorMessage{
+    color: #fff;
+    padding: 50px 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.errorMessage p{
+    margin: 0;
+    background-color: #e74c3c;
+    padding: 15px;
+    border-radius: 10px;
+}

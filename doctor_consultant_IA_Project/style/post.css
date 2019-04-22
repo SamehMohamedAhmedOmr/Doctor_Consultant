@@ -1,0 +1,66 @@
+.blogs{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	font-size: 2.5em;
+    font-weight: bold;
+}
+
+.blogs .container{
+	padding: 2% 2% 6% 2%;
+}
+
+h5.card-header{
+    padding: 2%;
+    background-color: #F7F7F7;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+div.card-body{
+	border: 1px solid #ccc;
+	padding: 2%;
+}
+
+div.card-body textarea{
+	min-width: 1064px;
+	max-width: 1064px;
+}
+
+img.comment-image{
+	border-radius: 50%;
+	float: left;
+    width: 5%;
+    margin-right: 3%;
+}
+
+div.media{
+	overflow: hidden;
+	padding: 2%;
+    border-radius: 12px;
+}
+div.media-body{
+	float: left;
+	width: 90%;
+}
+
+div.media-body h5{
+	font-size: 1.5em;
+    font-weight: bold;
+}
+
+.doctor_comment{
+	background: #f9e273;
+}
+
+.patient_comment{
+	background: #0f4c82;
+    color: #fff;
+}
+
+p.Content{
+	padding: 2.5%;
+}

@@ -1,0 +1,27 @@
+.blogs .container{
+	padding: 3%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.blogs .post{
+	background-color: #efefef;
+	margin-bottom: 3%;
+	border: 1px solid #ccc;
+}
+.blogs .owner{
+	padding: 0% 2% 2%;
+	color: #8a8787;
+}
+
+.blogs .owner span{
+	padding-right: 5%;
+}
+
+.blogs p{
+	color: #8a8787;
+}
+
+.details{
+	padding: 2%;
+    background: #fff;
+}

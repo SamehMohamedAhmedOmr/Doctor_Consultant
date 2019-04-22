@@ -1,0 +1,17 @@
+.blogs .container{
+	padding: 3%;
+}
+table{
+	text-align: center;
+}
+table th{
+	text-align: center;
+}
+
+table td a.delete i{
+	color : red;
+}
+
+table td a.edit i{
+	color : green;
+}

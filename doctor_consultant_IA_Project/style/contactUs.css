@@ -1,0 +1,109 @@
+.contactUs{
+    background-color: #F6F6F6;
+}
+
+.contactUs > div{
+    width: 55%;
+    padding:50px 0;
+}
+
+.contactUs .contactUs-body{
+    padding: 20px 0; 
+}
+
+.contactUs .contactUs-body form{
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.contactUs .contactUs-body form > input{
+    background-color: #5CB85C;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.contactUs .contactUs-body form > input:hover{
+    background-color: #4cae4c;
+}
+
+.contactUs .contactUs-body input,textarea{
+    padding: 13px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+textarea{min-height: 150px; max-width: 100%}
+
+.contactUs .contactUs-body > input[type="submit"]{
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(1){
+    background-color: #3276b1;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(1):hover{
+    background-color: #2e6da4;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(2){
+    background-color: #5bc0de;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(2):hover{
+    background-color: #46b8da;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(3){
+    background-color: #e74c3c;
+}
+
+.contactUs .contactUs-body > input[type="submit"]:nth-of-type(3):hover{
+    background-color: #c0392b;
+}
+
+.contactUs .contactUs-body div.checkbox{
+    text-align: left;
+    padding: 15px 50px 20px
+}
+
+.contactUs .contactUs-body > h4{
+    margin-top: 10px;
+    color: #6A6A6A;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.call-us {
+    padding:5% 0;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.call-us .container div.info{
+    float: left;
+    width: 50%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #8A8A8A;
+}
+
+.call-us .container div.info:nth-of-type(1){
+    border-right: 1px solid #ccc;
+}
+
+.call-us .container div.info h3{
+    font-weight: lighter;
+    font-size: 1.8em;
+}
+
+.call-us .container div.info h5{
+    font-weight: lighter;
+}
